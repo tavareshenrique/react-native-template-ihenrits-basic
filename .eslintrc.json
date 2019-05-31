@@ -1,7 +1,8 @@
 {
   "parser": "babel-eslint",
   "env": {
-    "es6": true
+    "es6": true,
+    "react-native/react-native": true
   },
   "extends": "airbnb",
   "globals": {
@@ -16,17 +17,25 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "react-native", "jsx-a11y"],
   "rules": {
     "react/jsx-filename-extension": [
       "error",
       { "extensions": [".js", ".jsx"] }
     ],
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2,
+    "react-native/no-raw-text": 2
   },
   "settings": {
-    "import/resolver": {
-      "babel-plugin-root-import": {}
-    }
+    "react-native/style-sheet-object-names": [
+      "EStyleSheet",
+      "OtherStyleSheet",
+      "PStyleSheet"
+    ],
+    "import/resolver": "root-import"
   }
 }
