@@ -10,12 +10,13 @@ This project aims to create a model that can be used at the time of creating pro
 
 - React Native;
 - React Navigation;
-- React Native Gesture Handler
+- React Native Gesture Handler;
 - Async Storage;
 - Axios;
 - Prop-Types;
 - Styled-Components;
 - Reactotron;
+  - reactotron-react-native;
 - EditorConfig;
 - Babel;
   - babel-eslint;
@@ -30,7 +31,7 @@ This project aims to create a model that can be used at the time of creating pro
 
 ## Instructions
 
-- Delete the `App.js` file(The `"App.js"` that you will use is located in the `src` folder with the name `index.js`.);
+- Delete the `App.js` file that is in the root of the project.(The `"App.js"` that you will use is located in the `src` folder with the name `index.js`);
 - If you want to use React DevTools add `"react-devtool": "react-devtools"` in your script in `package.json`
 - A few more steps needed for Android:
   - Copy the `local.properties` file that is in the root of the project and paste it into the `android` folder.
@@ -89,7 +90,7 @@ ihenrits-basic
         </sub>
        </a>
        <br />
-       <a href="https://github.com/tavareshenrique/app-gobarber/commits?author=tavareshenrique" title="Code">💻</a>
+       <a href="https://github.com/tavareshenrique/app-gobarber/commits?author=tavareshenrique" title="Code"></a>
     </td>
   </tr>
 </table>
