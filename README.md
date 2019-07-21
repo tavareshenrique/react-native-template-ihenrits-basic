@@ -1,4 +1,4 @@
-# react-native-template-ihenrits-basic
+# React Native Template ihenrits-basic
 
 This project aims to create a model that can be used at the time of creating projects using React Native, taking into account that the process of creating the development environment requires some time delaying the development process.
 
@@ -75,6 +75,14 @@ ihenrits-basic
 └── README.md
 ```
 
+## Changelog
+
+* [1.0.0]()
+
+## Contributing
+
+* [Contributing]()
+
 ## Contributor
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -90,7 +98,8 @@ ihenrits-basic
         </sub>
        </a>
        <br />
-       <a href="https://github.com/tavareshenrique/app-gobarber/commits?author=tavareshenrique" title="Code"></a>
+       <a href="https://github.com/tavareshenrique/app-gobarber/commits?author=tavareshenrique" title="Code">@tavareshenrique</a>
     </td>
   </tr>
 </table>
+
