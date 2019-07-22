@@ -54,26 +54,23 @@ ihenrits-basic
 │   ├── pages/
 │   │   └── Main/
 │   │       └── index.js
-│   │       └── styles.js
 │   ├── services/
 │   │   └── api.js
 │   ├── styles/
-│   │   └── colors.js
-│   │   └── index.js
-│   │   └── metrics.js
 │   ├── index.js
 │   └── routes.js
-├── .editorconfig
-├── .eslintrc.json
-├── .gitignore
-├── babel.config.js
+├── babel.config
 ├── dependencies.json
-├── devDependencies.json
+├── devDependecies.json
 ├── index.js
 ├── jsconfig.json
-├── LICENSE
+├── local.properties
 ├── package.json
-└── README.md
+├── .editorconfig
+├── .eslintrc.json
+├── .gitattributes
+├── .gitignore
+├── .prettierrc
 ```
 
 ## Contributor
