@@ -2,9 +2,14 @@
   "parser": "babel-eslint",
   "env": {
     "es6": true,
-    "react-native/react-native": true
+    "jest": true
   },
-  "extends": "airbnb",
+  "extends": [
+    "airbnb",
+    "plugin:react-native/all",
+    "prettier",
+    "prettier/react"
+  ],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly",
@@ -17,25 +22,24 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react", "react-native", "jsx-a11y"],
+  "plugins": ["react", "react-native", "jsx-a11y", "import", "prettier"],
   "rules": {
+    "prettier/prettier": "error",
     "react/jsx-filename-extension": [
       "error",
       { "extensions": [".js", ".jsx"] }
     ],
     "import/prefer-default-export": "off",
-    "react-native/no-unused-styles": 2,
-    "react-native/split-platform-components": 2,
-    "react-native/no-inline-styles": 2,
-    "react-native/no-color-literals": 2,
-    "react-native/no-raw-text": 2
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "react/jsx-one-expression-per-line": "off",
+    "react-native/no-color-literals": "off",
+    "react-native/sort-styles": "off",
+    "global-require": "off",
+    "react-native/no-raw-text": "off"
   },
   "settings": {
-    "react-native/style-sheet-object-names": [
-      "EStyleSheet",
-      "OtherStyleSheet",
-      "PStyleSheet"
-    ],
-    "import/resolver": "root-import"
+    "import/resolver": {
+      "babel-plugin-root-import": { "rootPathSuffix": "src" }
+    }
   }
 }

@@ -1,13 +1,9 @@
 import React from 'react';
 
-import './config/ReactotronConfig';
-import './config/DevToolsConfig';
+import '~/config/ReactotronConfig';
 
-import createNavigator from './routes';
+import Routes from '~/routes';
 
-const App = () => {
-  const Routes = createNavigator();
-  return <Routes />;
-};
+const App = () => <Routes />;
 
 export default App;

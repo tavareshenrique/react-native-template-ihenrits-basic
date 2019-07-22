@@ -18,6 +18,7 @@ This project aims to create a model that can be used at the time of creating pro
 - Reactotron;
   - reactotron-react-native;
 - EditorConfig;
+- Prettier;
 - Babel;
   - babel-eslint;
   - babel-plugin-root-import;
@@ -74,14 +75,6 @@ ihenrits-basic
 ├── package.json
 └── README.md
 ```
-
-## Changelog
-
-* [1.0.0]()
-
-## Contributing
-
-* [Contributing]()
 
 ## Contributor
 
